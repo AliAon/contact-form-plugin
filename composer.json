@@ -1,0 +1,19 @@
+{
+    "name": "aliaon/contactform",
+    "description": "contact form plugin for sending emails",
+    "type": "plugin",
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    },
+    "authors": [
+        {
+            "name": "aliaon",
+            "email": "aon094944@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
